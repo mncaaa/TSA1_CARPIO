@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yshie Lima's</title>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="s2.css">
+</head>
+<body>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            var myDivs = document.querySelectorAll('.left_Side, .right_Side');
+    
+            myDivs.forEach(function(div) {
+                var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+                div.style.backgroundColor = randomColor;
+            });
+        }
+    </script>
+    
+    <div class="container">   
+       <div class="left_Side">          
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="https://lh3.googleusercontent.com/pw/ABLVV87hZ_vAoWEsC0rWAWQL9F8XdAEgdUhGXEMPI5gUxhKXcSXhbEhW6zf1hfPmaEr09Oa3x25GQyMNq5h8V3A_KYn2qIOSzPCsZ5cWTo_Dk5yH7CDwuANZz5B2zHFAyGPrpQOvMTbO8PyJFzZrM8MqEIvP6w-X-yv8gA2RJ4sM-zwWHzuQ5NYnvMjl-8pY6oVYWFnk8ju5xG4EKEnFLOCi85EJwZDclJ_y239Rlgp60oOQSjJhFoUe3uPmD6E7bz1nHnHayaSNV0-XT3XHVhwJnuY0XzTd9sicSB3TRWRHwgikuh2WLD6xRmXq2zCHmsxcLwp7RRvuRDhZ2yPzIzG1wE-rA4hOjtb5zsiQ0gzNI1aRxvjn6IWRZgP62mN8FpJdWJ5Aihdj0e8YsjUDaUUA1fmG46am82KMnv9MRsF0gl7mVbVPtNSw-jg_dzxVtiAx5OizObPBKQgOmU2aPGHgoo4wq8chOTzzbR567DcPDhKKBJXX2PvJVt99YAmME_VX5MOUdXq5MUlcXfilL1IBmMcLn5H6a7WOhawb3f85x0cydIxL33NzqJe0rDx8TQza0LnwUGBmByJNjnYSzuXsuLezGn0OgaJFypPa42uvNpCzALNbnaCDZoStk_pYIhpleiqiiioEQzJLzCjDDRQBq84ttz17tGQvN1N5IpN8wBYOM71q9ZPTCpfGGaDhrPPG2mCZDSZ-EJK6yk32FUFY7v3W_fNmlZxnjgh3UD5Y0pGq5bBrw_YjsCjLD9EfpSg8qU6QLmicDDfexJeuVSAXH1ycy_YL3adwi8CoMVy1gmUfPQFzYdYacKtxV-RAL5bnmbxAo6P5mIBQFJpztGxYJSmBSMA_SUns-NV7oqivzt170tvnzz8d2iTpG0_8HnxUoCwo=w941-h923-s-no-gm?authuser=0" alt="Profilepic" width="200" height="200">
+                </div>
+                <h2>Yshie Mykaela P. Lima</h2>
+            </div>
+
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="text">09457702171</span>
+                    </li>
+                    <li>
+                        <span class="text">lima.yshiemykaela@gmail.com</span>
+                    </li>                 
+                    <li>
+                        <span class="text">Sagad, Pasig City</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2022 - Present</h5>
+                        <h4>Bachelor of Science in Information Technology Major in Web and Mobile Application</h4>
+                        <h4>FEU Institute of Technology</h4>
+                    </li>
+                    <li>
+                        <h5>2019 - 2022</h5>
+                        <h4>AMA University - Pasig</h4>
+                    </li>
+                    <li>
+                        <h5>2015 - 2019</h5>
+                        <h4>Asia Pacific Accelerated Christian School</h4>
+                    </li>
+                    <li>
+                        <h5>2009 - 2015</h5>
+                        <h4>Pateros Catholic School</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right_Side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <ul>
+                    <li>
+                        <h5>Age: 20</h5>
+                    </li>
+                    <li>
+                        <h5>Gender: Female</h5>
+                    </li>
+                    <li>
+                        <h5>Nationality: Filipino</h5>
+                    </li>
+                    <li>
+                        <h5>Birth date: November 21, 2003</h5>
+                    </li>
+                    <li>
+                        <h5>Birth place: Pasig City</h5>
+                    </li>
+                    <li>
+                        <h5>Religion: Born Again Christian</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <ul>
+                    <li>
+                        <h5>2020 - Present</h5>
+                        <h4>Owns a Small business (Mykaela's Kitchen)</h4>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="about">
+                <h2 class="title2">Objectives</h2>
+                <ul>
+                    <li>
+                        <h5>Increase understanding of others' goals to improve communication and achieve goals.</h5>
+                    </li>
+                    <li>
+                        <h5>To gain experience, professional knowledge, and deeper understanding from the Computer industry.</h5>
+                    </li>
+                    <li>
+                        <h5>To improve the work process and workflow.</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="about">
+                <h2 class="title2">Skills</h2>
+                <ul>
+                    <li>
+                        <h5>Team working ability</h5>
+                    </li>
+                    <li>
+                        <h5>Communication and interpersonal skills</h5>
+                    </li>
+                    <li>
+                        <h5>Proficiency in Adobe Photoshop</h5>
+                    </li>
+                    <li>
+                        <h5>Proficiency in programming languages such C, C++, Python, HTML, and Java.</h5>
+                    </li>
+                </ul>
+            </div>
+            <div class="about">
+                <h2 class="title2">Activities</h2>
+                <ul>
+                    <li>
+                        <h5>Member of Drama Team (2015-2019)</h5>
+                    </li>
+                    <li>
+                        <h5>Champion in Badminton (2016 & 2017)</h5>
+                    </li>
+                    <li>
+                        <h5>Peoples Choice United Nation (2016)</h5>
+                    </li>
+                    <li>
+                        <h5>Top 2 in Grade 7,8, & 9 (2015-2018)</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</html>
